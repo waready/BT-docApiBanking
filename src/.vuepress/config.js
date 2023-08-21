@@ -63,7 +63,7 @@ module.exports = {
             '', // Enlace a README.md
             {
               title: 'simular',
-              collapsable: true,
+              collapsable: false,
               children: [
                 'simular/1descripcion',
                 'simular/2configuracionBk',

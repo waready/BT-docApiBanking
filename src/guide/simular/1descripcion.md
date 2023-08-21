@@ -10,7 +10,8 @@ Método para simular el alta de un préstamo amortizable en Bantotal
 
 > Ejemplo de invocación al método Simular:
 
-
+<code-group>
+<code-block title="XML" active>
 ```xml
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:bts="http://uy.com.dlya.bantotal/BTSOA/">
    <soapenv:Header/>
@@ -38,7 +39,9 @@ Método para simular el alta de un préstamo amortizable en Bantotal
    </soapenv:Body>
 </soapenv:Envelope>
 ```
+</code-block>
 
+<code-block title="JSON" active>
 ```json
 curl -X POST \
   'http://btd-bantotal.eastus2.cloudapp.azure.com:4462/btdeveloper/servlet/com.dlya.bantotal.odwsbt_BTPrestamos?Simular=' \
@@ -66,7 +69,8 @@ curl -X POST \
     }
 }'
 ```
-
+</code-block>
+</code-group>
 
 > El POST retornará la siguiente estructura:
 

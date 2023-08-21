@@ -1,9 +1,9 @@
 
-## Configuración Backend
+# Configuración Backend
 
 1. Si la opciòn general de procesos 3281 se encuentra activada, el servicio considera la sucursal del usuario de conexiòn, caso contrario, simula con la sucursal de la cuenta cliente.
 
-### Datos de entrada
+## Datos de entrada
 
 | Nombre      | Tipo            | Comentarios             |
 | ----------- | --------------- | ----------------------- |
@@ -22,7 +22,7 @@ Los campos del tipo de dato estructurado sBTPrestamoAlta son los siguientes:
 | tasa             | Double | Tasa. Si no se indica toma la correspondiente al tipo de pizarra.      |
 | actividad\*\*    | Long   | Código de actividad (Destino del crédito).                             |
 
-### Datos de salida
+## Datos de salida
 
 | Nombre        | Tipo                  | Comentarios                 |
 | ------------- | --------------------- | --------------------------- |
