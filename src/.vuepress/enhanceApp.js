@@ -11,4 +11,18 @@ export default ({
   siteData // site metadata
 }) => {
   // ...apply enhancements for the site.
+  router.afterEach(() => {
+    alert("holi")
+    const sidebar = document.querySelector('.sidebar');
+    if (sidebar) {
+      const simularItem = sidebar.querySelector('a.sidebar-link[href="/guide/simular/"]');
+      if (simularItem) {
+        const listItem = simularItem.closest('li.sidebar-item');
+        if (listItem) {
+          listItem.classList.remove('is-sub-group');
+        }
+      }
+    }
+  });
+
 }

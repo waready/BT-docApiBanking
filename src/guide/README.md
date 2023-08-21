@@ -4,11 +4,9 @@ Documentación API Banking.
 
 Los servicios publicados están disponibles desde la versión BTV2R2 en adelante.
 
-Los métodos señalados con un asterisco ( * ), tienen diferentes firmas entre versiones (BTV2R2 y BTV2R3).
+Los métodos señalados con un asterisco ( \* ), tienen diferentes firmas entre versiones (BTV2R2 y BTV2R3).
 
-Los métodos señalados con  dos asteriscos ( ** ), son de uso exclusivo de una determinda plaza.
-
-
+Los métodos señalados con dos asteriscos ( \*\* ), son de uso exclusivo de una determinda plaza.
 
 ## Autenticación
 
@@ -119,4 +117,3 @@ curl -X POST \
 ```
 </code-block>
 </code-group>
-

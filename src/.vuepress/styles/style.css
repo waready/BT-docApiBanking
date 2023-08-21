@@ -1,0 +1,14 @@
+/* .vuepress/styles.css */
+
+/* Estilo para el título "simular" en el sidebar */
+.sidebar-heading > span {
+    /* Agrega tus estilos personalizados aquí */
+    font-weight: bold; /* Por ejemplo, cambiar el peso de la fuente */
+    color: blue; /* Cambiar el color del texto */
+    /* ... */
+  }
+
+
+*{
+    background-color: aqua;
+}
