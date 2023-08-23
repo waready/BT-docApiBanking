@@ -1,14 +1,13 @@
-
 ## Obtener Telefonos
-  
+
 Método para obtener los teléfonos de un cliente.
 
-Nombre publicación | Programa | Global/País
---------- | ----------- | -----------
-BTClientes.ObtenerTelefonos | RBTPG215 | Global
+| Nombre publicación          | Programa | Global/País |
+| --------------------------- | -------- | ----------- |
+| BTClientes.ObtenerTelefonos | RBTPG215 | Global      |
 
 > Ejemplo de invocación al método Obtener Telefonos:
- 
+
 <code-group>
 <code-block title="XML" active>
 ```xml
@@ -166,25 +165,25 @@ curl -X POST \
  
 Nombre | Tipo | Comentarios
 --------- | ----------- | -----------
-clienteUId | Long | Identificador único de cliente. 
+clienteUId | Long | Identificador único de cliente.
 
 ### Datos de salida
 
-Nombre | Tipo | Comentarios
---------- | ----------- | -----------
-sdtTelefonos | sBTTelefono | Listado de teléfonos.
+| Nombre       | Tipo        | Comentarios           |
+| ------------ | ----------- | --------------------- |
+| sdtTelefonos | sBTTelefono | Listado de teléfonos. |
 
 Los campos del tipo de dato estructurado sBTTelefono son los siguientes
 
-Campo | Tipo | Comentarios
---------- | ----------- | -----------
-telefono | String | Número de teléfono
-tipoDeDomicilioId | Byte | Identificador de tipo de domicilio del teléfono.
-tipoDeDomicilio | String | Descripción de tipo de domicilio del teléfono.
-identificador | Byte | Identificador correlativo de teléfono.
+| Campo             | Tipo   | Comentarios                                      |
+| ----------------- | ------ | ------------------------------------------------ |
+| telefono          | String | Número de teléfono                               |
+| tipoDeDomicilioId | Byte   | Identificador de tipo de domicilio del teléfono. |
+| tipoDeDomicilio   | String | Descripción de tipo de domicilio del teléfono.   |
+| identificador     | Byte   | Identificador correlativo de teléfono.           |
 
 ### Errores
 
-Código | Descripción
---------- | -----------
-30001 | No se recibió identificador de cliente.
+| Código | Descripción                             |
+| ------ | --------------------------------------- |
+| 30001  | No se recibió identificador de cliente. |
