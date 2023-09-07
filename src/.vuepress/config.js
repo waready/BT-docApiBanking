@@ -118,6 +118,18 @@ module.exports = {
                 'BTClientes/BTClientesValidarExistencia',
                 'BTClientes/BTClientesVerificarEmpleado',
               ]
+            },
+            {
+              title: 'BTPrestamos',
+              collapsable: true,
+              children: [
+                'BTPrestamos/Actulizaciones',
+                'BTPrestamos/Contratacion',
+                'BTPrestamos/Datos',
+                'BTPrestamos/DocumentosDigitales',
+                'BTPrestamos/Pagos',
+                'BTPrestamos/Simulacion'
+              ],
             }
           ]
         }
